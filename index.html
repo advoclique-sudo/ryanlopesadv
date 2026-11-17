@@ -6,12 +6,12 @@
 
   <!-- Google Ads / Analytics: inserir aqui a tag do Ryan quando a conta estiver criada.
        (A tag anterior pertencia a outro cliente e foi removida.)
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18579284266"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'AW-XXXXXXXXXX');
+    gtag('config', 'AW-18579284266');
   </script>
   -->
 
@@ -509,17 +509,16 @@
     });
   </script>
 
-  <!-- Google Ads - conversão "Contato" no clique do WhatsApp.
-       Descomentar e preencher com o ID/rótulo da conta do Ryan.
+  <!-- Google Ads - conversão "Clique WhatsApp - LP Execucao Fiscal" -->
   <script>
     document.addEventListener('click', function (e) {
-      var link = e.target.closest('a[href*="wa.me"]');
+      var link = e.target.closest('a[href*="wa.me"], a[href*="api.whatsapp.com"], a[href*="whatsapp://"]');
       if (link && typeof gtag === 'function') {
-        gtag('event', 'conversion', { 'send_to': 'AW-XXXXXXXXXX/XXXXXXXXXXXX', 'value': 1.0, 'currency': 'BRL', 'transport_type': 'beacon' });
+        gtag('event', 'conversion', { 'send_to': 'AW-18579284266/NSNpCNr7tbodEKrCpZtF', 'value': 1.0, 'currency': 'BRL', 'transport_type': 'beacon' });
       }
     });
   </script>
-  -->
+
 
 </body>
 </html>
